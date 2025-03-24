@@ -1,9 +1,8 @@
 # Form-UI
-A Proficient demo form that allows registration,updating,viewing of users login.Can be used for an admin dashboard.Since its 
+A fully functional demo form enabling user registration, updates, and login viewing, ideal for integration into an admin dashboard.
 
 
-
-SQL to initiate db
+SQL code to initiate db
 
 CREATE DATABASE userdata;
 
@@ -19,4 +18,4 @@ CREATE TABLE user (
 
 
 #Issues
-Just a demo the password have not been hashed yet and some security issues with the id displaying plainly in the url.
+It's just a demo; the password hasn't been hashed yet, and there are some security concerns, such as the ID being exposed in the URL.
